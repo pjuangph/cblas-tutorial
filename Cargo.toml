@@ -1,0 +1,7 @@
+[package]
+name = "cblas_tutorial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cblas = "0.4.0"
