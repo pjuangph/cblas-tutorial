@@ -5,10 +5,13 @@ I'm a python developer learning Rust. In Python we have numpy and scipy. Numpy c
 
 To get started with this example. 
 
-:: Note: Linux `sudo apt-get install libblas-dev liblapack-dev` 
-:: Note: Mac `brew install openblas lapack`
+> [!NOTE]
+>  Linux **`sudo apt-get install libblas-dev liblapack-dev`**
 
-:: `cargo add cblas`
+> [!NOTE]
+>  Mac **`brew install openblas lapack`**
+
+Adding cblas `cargo add cblas`
 
 Linking will generally fail which is why the build.rs has to be modified to point to these libraries. Example came from looking at the build.rs from https://github.com/linalg-rs/rlst/blob/main/build.rs 
 
